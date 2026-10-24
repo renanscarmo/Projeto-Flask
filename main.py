@@ -4,4 +4,4 @@ app=Flask(__name__)
 def home():
     return{'mensagem':'Olá, DevSecOps!'}
 if __name__=="__main__":
-    app.run()
+    app.run(debur=True)
